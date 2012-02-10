@@ -80,12 +80,12 @@ $CSS_FILES = array(
 );
 
 foreach ($JS_FILES as $file) {
-  echo file_get_contents($file);
+  echo file_get_contents(dirname(__FILE__) .'/'. $file);
 }
 
 $css = '';
 foreach ($CSS_FILES as $file) {
-  $css .= file_get_contents($file);
+  $css .= file_get_contents(dirname(__FILE__) .'/'. $file);
 }
 // css URLs are relative to facebook domains
 $css = preg_replace('#url\(/#', 'url(http://static.ak.fbcdn.net/', $css);
