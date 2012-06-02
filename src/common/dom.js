@@ -221,7 +221,7 @@ FB.provide('Dom', {
       ? document.documentElement
       : document.body;
     return {
-      scrollTop  : root.scrollTop,
+      scrollTop  : root.scrollTop || document.body.scrollTop,
       scrollLeft : root.scrollLeft,
       width      : self.innerWidth  ? self.innerWidth  : root.clientWidth,
       height     : self.innerHeight ? self.innerHeight : root.clientHeight
