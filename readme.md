@@ -44,7 +44,7 @@ SDK with popular JavaScript libraries such as [Dojo][Dojo], [jQuery][jQuery],
 [Prototype]: http://prototypejs.org/
 [YUI]: http://developer.yahoo.com/yui/
 [changelog]: http://github.com/facebook/connect-js/tree/master/changelog.md
-[examples]: http://github.com/facebook/connect-js/tree/master/examples/
+[examples]: http://github.com/facebook/facebook-js-sdk/tree/deprecated/examples
 
 Report Issues/Bugs
 ===============
